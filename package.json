@@ -1,0 +1,27 @@
+{
+  "private": false,
+  "name": "@link-society/easylog",
+  "version": "1.0.0",
+  "description": "Simple logging library",
+  "main": "dist/index.js",
+  "repository": "https://github.com/link-society/easylog",
+  "author": "Link Society <contact@link-society.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "nyc -r html -r text ts-mocha tests/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.3",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.5.0",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.2.2"
+  }
+}
