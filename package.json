@@ -8,6 +8,7 @@
   "author": "Link Society <contact@link-society.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint",
     "build": "tsc",
     "watch": "tsc --watch",
     "test": "nyc -r html -r text ts-mocha tests/**/*.spec.ts"
@@ -16,7 +17,10 @@
     "@tsconfig/node14": "^1.0.0",
     "@types/expect": "^24.3.0",
     "@types/mocha": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
     "chai": "^4.3.3",
+    "eslint": "^7.21.0",
     "mocha": "^8.3.0",
     "nyc": "^15.1.0",
     "sinon": "^9.2.4",
