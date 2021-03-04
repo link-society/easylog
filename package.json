@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@link-society/easylog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple logging library",
   "main": "dist/index.js",
   "repository": "https://github.com/link-society/easylog",
@@ -9,8 +9,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint",
-    "build": "tsc",
-    "watch": "tsc --watch",
+    "build": "tsc -d",
+    "watch": "tsc -d --watch",
     "test": "nyc -r html -r text ts-mocha tests/**/*.spec.ts"
   },
   "devDependencies": {
